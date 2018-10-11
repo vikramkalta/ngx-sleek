@@ -1,0 +1,31 @@
+{
+  "name": "ngx-sleek",
+  "version": "0.0.1",
+  "description": "Sleek Angular Components",
+  "keywords": [
+    "angular components dashboard web responsive"
+  ],
+  "author": {
+    "name": "ideaplunge",
+    "url": "https://github.com/ygchander"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ygchander/ngx-sleek.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ygchander/ngx-sleek/issues"
+  },
+  "homepage": "https://github.com/ygchander/ngx-sleek",
+  "main": "./bundles/ngx-sleek.umd.js",
+  "module": "./esm5/ngx-sleek.es5.js",
+  "es2015": "./esm2015/ngx-sleek.js",
+  "typings": "./ngx-sleek.d.ts",
+  "peerDependencies": {
+    "@angular/cdk": "^6.3.1",
+    "@angular/common": "^6.0.1",
+    "@angular/core": "^6.0.1",
+    "rxjs": "^6.1.0"
+  }
+}
